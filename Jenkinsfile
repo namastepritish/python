@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'python3 --version'
             }
-        }        stage('hello world') {
+        }        stage('hello first world') {
             steps {
                 sh 'python3 -c "print(\'Hello World\')"'
             }
